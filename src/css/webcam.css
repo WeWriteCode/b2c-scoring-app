@@ -33,11 +33,9 @@
 .webcam-view-box-container {
 	position: absolute;
 	z-index: 1000;
-	left: 0;
-	right: 0;
-	bottom: 200px;
-	margin-left: auto;
-	margin-right: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 300px;
 	height: 300px;
 	border: 3px solid red;
@@ -61,7 +59,6 @@
 	.webcam-view-box-container {
 		height: 300px;
 		width: 300px;
-		bottom: 300px;
 	}
 }
 
