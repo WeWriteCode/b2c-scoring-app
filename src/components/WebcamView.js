@@ -39,18 +39,16 @@ function WebcamView(props) {
     }
 
     return (
-        <div className='modal-wrapper'>
-            <div className='webcam'>
-                <Webcam
-                    screenshotQuality={0.8}
-                    audio={false}
-                    ref={videoElement}
-                    screenshotFormat="image/jpeg"
-                    videoConstraints={videoConstraints}
-                />
-                <div className='webcam-button-container'>
-                    <button className="webcam-capture" type="button" onClick={() => capture(props)}>Capture Photo</button>
-                </div>
+        <div className='webcam'>
+            <Webcam
+                screenshotQuality={0.8}
+                audio={false}
+                ref={videoElement}
+                screenshotFormat="image/jpeg"
+                videoConstraints={videoConstraints}
+            />
+            <div className='webcam-button-container'>
+                <button className="webcam-capture" type="button" onClick={() => capture(props)}>Capture Photo</button>
             </div>
         </div>
     );
