@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/b2c-scoring-app/static/css/main.11c0bf0b.chunk.css",
+    "main.css": "/b2c-scoring-app/static/css/main.fe55e097.chunk.css",
     "main.js": "/b2c-scoring-app/static/js/main.5f833428.chunk.js",
     "main.js.map": "/b2c-scoring-app/static/js/main.5f833428.chunk.js.map",
     "runtime~main.js": "/b2c-scoring-app/static/js/runtime~main.325a5b79.js",
@@ -8,8 +8,8 @@
     "static/js/2.a4e2fc17.chunk.js": "/b2c-scoring-app/static/js/2.a4e2fc17.chunk.js",
     "static/js/2.a4e2fc17.chunk.js.map": "/b2c-scoring-app/static/js/2.a4e2fc17.chunk.js.map",
     "index.html": "/b2c-scoring-app/index.html",
-    "precache-manifest.864b2b39b72f36e4d79718c6df5b75ee.js": "/b2c-scoring-app/precache-manifest.864b2b39b72f36e4d79718c6df5b75ee.js",
+    "precache-manifest.b6642ef38307a5f46b058fd37ab593b2.js": "/b2c-scoring-app/precache-manifest.b6642ef38307a5f46b058fd37ab593b2.js",
     "service-worker.js": "/b2c-scoring-app/service-worker.js",
-    "static/css/main.11c0bf0b.chunk.css.map": "/b2c-scoring-app/static/css/main.11c0bf0b.chunk.css.map"
+    "static/css/main.fe55e097.chunk.css.map": "/b2c-scoring-app/static/css/main.fe55e097.chunk.css.map"
   }
 }
