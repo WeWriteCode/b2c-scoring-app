@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import CityGridSquare from "./CityGridSquare";
 import TileSelect from "./TileSelect";
 import utility from '../js/utility';
-import WebcamView from './WebcamView';
 import LoadingOverlay from 'react-loading-overlay';
 
 
@@ -449,13 +448,6 @@ function City(props) {
           : drawScores(cityData.score)
         }
       </LoadingOverlay>
-
-      {props.isWebcamVisible === false ? 
-        null : <WebcamView 
-          toggleLoading={props.toggleLoading}
-          toggleWebcam={props.toggleWebcam}
-          handleCameraClick={props.handleCameraClick}/>
-      }
 
 			{props.isSelectTileModalVisible === false ? null :
 				<TileSelect

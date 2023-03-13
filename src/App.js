@@ -23,6 +23,7 @@ import BetweenTwoCities from "./components/BetweenTwoCities";
 import City from "./components/City";
 import CitySummary from "./components/CitySummary";
 import axios from 'axios';
+import WebcamView from './components/WebcamView';
 
 class App extends Component {
   constructor(props) {
@@ -159,6 +160,7 @@ class App extends Component {
 
   render() {
     return (
+      <div>
       <div className="wrapper">
         <Router basename='/'>
             <Route
@@ -189,13 +191,18 @@ class App extends Component {
                   showSelectTileModal={this.showSelectTileModal}
                   hideSelectTileModal={this.hideSelectTileModal}
                   toggleWebcam={this.toggleWebcam}
-                  toggleLoading={this.toggleLoading}
-                  handleCameraClick={this.handleCameraClick}
                   {...props}
                 />
               }
             />
         </Router>
+    </div>
+    {this.state.isWebcamVisible === false ? 
+      null : <WebcamView 
+        toggleLoading={this.toggleLoading}
+        toggleWebcam={this.toggleWebcam}
+        handleCameraClick={this.handleCameraClick}/>
+    }
     </div>
     );
   }
